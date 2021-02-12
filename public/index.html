@@ -11,6 +11,15 @@
   <link rel="stylesheet" href="styles.css">
 
   <title>Budget Tracker</title>
+<script>
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+      navigator.serviceWorker.register("serviceWorker.js").then(reg => {
+        console.log ("Your Service Worker is registered!", reg);
+      });
+    });
+  }
+</script>
 </head>
 <body>
   <div class="wrapper">
@@ -43,5 +52,6 @@
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
   <script src="index.js"></script>
+  <script src = "indexedDB.js"></script>
 </body>
 </html>

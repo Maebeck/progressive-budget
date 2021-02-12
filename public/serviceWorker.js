@@ -35,7 +35,7 @@ self.addEventListener('activate', (e) =>{
 });
 
 self.addEventListener('fetch', (e) => {
-    if (e.request.url.includes('/api/')) {
+    if (e.request.url.includes('/routes/api.js')) {
         e.respondWith(caches.open(cacheName).then(cache => {
             return fetch(e.request).then(res => {
                 if(res.status === 200) {

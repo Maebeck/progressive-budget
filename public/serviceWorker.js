@@ -1,4 +1,4 @@
-const { response } = require("express");
+
 
 const cacheName = 'offline-cache';
 const cachedFiles = [

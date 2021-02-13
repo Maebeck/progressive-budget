@@ -27,5 +27,3 @@ app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
 
-
-mongodb+srv://maebeck:Reason123@cluster0.dewvb.mongodb.net/budget?retryWrites=true&w=majority

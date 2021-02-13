@@ -15,9 +15,9 @@
 ![](https://img.shields.io/badge/license--blue)
 Allows user to monitor their budget on the go! Offline or online!
 ## Installation
-    Check out the live site!
+    Check out the live site! (https://maebeck-pwa-budget.herokuapp.com/)
  ## Usage
-    User is able to add or subtract funds with a description of what happened. User will be able to track all their funds while either online or offline!
+    User is able to add or subtract funds with a description of their transaction. User will be able to track all their funds while either online or offline!
 ## Test Installation
     N/A
 ## GitHub URl
